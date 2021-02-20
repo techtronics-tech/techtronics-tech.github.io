@@ -243,7 +243,6 @@
                 message
             }), 
             success: function(text) {
-                console.log(text);
                 if (text.status === "ok") {
                     cformSuccess();
                 } else {
