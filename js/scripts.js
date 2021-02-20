@@ -235,14 +235,20 @@
         var terms = $("#cterms").val();
         $.ajax({
             type: "POST",
-            url: "php/contactform-process.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms, 
+            url: "https://techtronics.herokuapp.com/contact-us",
+            contentType: "application/json",
+            data: JSON.stringify({
+                email,
+                name,
+                message
+            }), 
             success: function(text) {
-                if (text == "success") {
+                console.log(text);
+                if (text.status === "ok") {
                     cformSuccess();
                 } else {
                     cformError();
-                    csubmitMSG(false, text);
+                    csubmitMSG(false, JSON.stringify(text.errors));
                 }
             }
         });
