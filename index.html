@@ -29,16 +29,18 @@
 	<link href="css/styles.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
-    <link rel="icon" href="images/logo1.PNG">
+    <link rel="icon" href="./images/1.png">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
     <!-- Preloader -->
 	<div class="spinner-wrapper">
         <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
+            <div class="bounce1">
+                <img src="./images/1.png" height="100px" width="100px" alt="">
+            </div>
+            <!-- <div class="bounce2"></div>
+            <div class="bounce3"></div> -->
         </div>
     </div>
     <!-- end of preloader -->
@@ -50,8 +52,10 @@
         <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><h2>Tech Tronics</h2></a>
-        
+        <a class="navbar-brand text-dark" style="text-decoration: none;" href="./index.html">
+            <img src="./images/1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            <h3 style="display: inline;" class="d-none d-md-inline">&nbsp;Tech Tronics</h3>
+          </a>
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-awesome fas fa-bars"></span>
@@ -109,8 +113,7 @@
                     <div class="col-lg-6">
                         <div class="text-container">
                             <h1><span class="turquoise">Tech</span> Tronics</h1>
-                            <hr style="height:2px;width:230px;color:gray;background-color:black;text-align:left;margin-left:0">
-                            <p class="p-large">Here you can get very deep knowledge about technical subjects which will enhance your technical skills.</p>
+                            <p class="p-large">Here you can get deep knowledge about technical subjects which will enhance your technical skills.</p>
                             <a class="btn-solid-lg page-scroll" href="#services">DISCOVER</a>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
@@ -124,10 +127,44 @@
         </div> <!-- end of header-content -->
     </header> <!-- end of header -->
     <!-- end of header -->
-
-
-    
-
+<br><br>
+    <!--Clousel-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <h2 class="text-center">Up Coming Sessions</h2>
+                    <br>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="./images/macbook-pro-13-og-202011.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/macbook-pro-13-og-202011.jpg" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/macbook-pro-13-og-202011.jpg" alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>    
     <!-- Services -->
     <div id="services" class="cards-1">
         <div class="container">
@@ -165,7 +202,7 @@
                         <img class="card-image" src="images/services-icon-3.svg" alt="alternative">
                         <div class="card-body">
                             <h4 class="card-title">Friendly Environment</h4>
-                            <p>During Class hour we use to create a friendly environment for the studnets so that they can ask without hesitation</p>
+                            <p>During Class hour we use to create a friendly environment for the students so that they can ask doubt without hesitation</p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -184,7 +221,7 @@
                 <div class="col-lg-6">
                     <div class="text-container">
                         <h2>We Design And Plan Your Lecture Growth Structure</h2>
-                        <p>Before the commencement of the class, we use to share a detail of the sylabus structue to the student so that they can get a clear understanding that what they are going to study</p>
+                        <p>Before the commencement of the class, we use to share a detail of the syllabus structure to the student so that they can get a clear understanding that what they are going to study</p>
                         <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">Check Details</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
@@ -270,7 +307,7 @@
                             <i class="fas fa-check"></i><div class="media-body">Friendly environemt</div>
                         </li>
                     </ul>
-                    <a class="btn-solid-reg mfp-close page-scroll" href="#request">REQUEST</a> <a class="btn-outline-reg mfp-close as-button" href="#screenshots">BACK</a>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#contact">REQUEST</a> <a class="btn-outline-reg mfp-close as-button" href="#screenshots">BACK</a>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -313,7 +350,7 @@
                             <i class="fas fa-check"></i><div class="media-body">Fast query solving</div>
                         </li>
                     </ul>
-                    <a class="btn-solid-reg mfp-close page-scroll" href="#request">REQUEST</a> <a class="btn-outline-reg mfp-close as-button" href="#screenshots">BACK</a>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#contact">REQUEST</a> <a class="btn-outline-reg mfp-close as-button" href="#screenshots">BACK</a>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -366,7 +403,7 @@
                                 </li>
                             </ul>
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="#request">REQUEST</a>
+                                <a class="btn-solid-reg page-scroll" href="#contact">REQUEST</a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -405,7 +442,7 @@
                                 </li>
                             </ul>
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="#request">REQUEST</a>
+                                <a class="btn-solid-reg page-scroll" href="#contact">REQUEST</a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -443,7 +480,7 @@
                                 </li>
                             </ul>
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="#request">REQUEST</a>
+                                <a class="btn-solid-reg page-scroll" href="#contact">REQUEST</a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -545,7 +582,7 @@
                     <!-- Video Preview -->
                     <div class="image-container">
                         <div class="video-wrapper">
-                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=0uEmo3onbOQ" data-effect="fadeIn">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=f7cnT90BOmU&feature=youtu.be" data-effect="fadeIn">
                                 <img class="img-fluid" src="images/video-frame.svg" alt="alternative">
                                 <span class="video-play-button">
                                     <span></span>
@@ -555,7 +592,7 @@
                     </div> <!-- end of image-container -->
                     <!-- end of video preview -->
 
-                    <p>This video will show the <strong>Emerging Technologies</strong> that are currently in a huge demand in market</p>
+                    <p>This video will show the <strong>Demo</strong> of the way we teach</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -583,9 +620,9 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/pandey.jpeg" alt="alternative">
+                                        <img class="card-image" src="./images/account.png" alt="alternative">
                                         <div class="card-body">
-                                            <p class="testimonial-text">We as a team tech-tronics have a dream to give all our experinece to our lovely juniors so that they will not face any difficulties what we feel that time.</p>
+                                            <p class="testimonial-text">We as a team tech-tronics have a dream to give all our experience to our lovely juniors so that they will not face any difficulties what we feel that time.</p>
                                             <p class="testimonial-author">Abhishek - Java Developer</p>
                                         </div>
                                     </div>
@@ -594,9 +631,9 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/ajit.jpg" alt="alternative">
+                                        <img class="card-image" src="./images/account.png" alt="alternative">
                                         <div class="card-body">
-                                            <p class="testimonial-text">We as a team tech-tronics have a dream to give all our experinece to our lovely juniors so that they will not face any difficulties what we feel that time.</p>
+                                            <p class="testimonial-text">We design the world in the way we want</p>
                                             <p class="testimonial-author">Ajit - UI/UX Designer</p>
                                         </div>
                                     </div>
@@ -606,7 +643,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/avinash.jpg" alt="alternative">
+                                        <img class="card-image" src="./images/account.png" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-text">I see the whole world in a aspect to development and i want our youth should be in developed one</p>
                                             <p class="testimonial-author">Avinash - Web Developer</p>
@@ -618,7 +655,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="./images/aditya2.jpg" alt="alternative">
+                                        <img class="card-image" src="./images/account.png" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-text">Creative thoughts come from creative skills holders, so think always new</p>
                                             <p class="testimonial-author">Aditya - Cyber security</p>
@@ -627,7 +664,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/sandeep.jpg" alt="alternative">
+                                        <img class="card-image" src="./images/account.png" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-text">No one could help you, if you not wish to learn</p>
                                             <p class="testimonial-author">Sandeep - AI Developer</p>
@@ -636,10 +673,10 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/rishi.jpg" alt="alternative">
+                                        <img class="card-image" src="./images/account.png" alt="alternative">
                                         <div class="card-body">
-                                            <p class="testimonial-text">Management and structue your knowledge is the key of success</p>
-                                            <p class="testimonial-author">Rishi - Python Developer</p>
+                                            <p class="testimonial-text">Management and structure your knowledge is the key of success</p>
+                                            <p class="testimonial-author">Rishi - Cloud Developer</p>
                                         </div>
                                     </div>        
                                 </div>
@@ -796,12 +833,13 @@
 -->
 
     <!-- Contact -->
+    <h2 class="text-center">Contact Us</h2>
     <div id="contact" class="form-2">
         <div class="container">
-            
             <div class="row">
-           
+                    
                     <!-- Contact Form -->
+                    
                     <form id="contactForm" data-toggle="validator" data-focus="false">
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>
@@ -823,7 +861,7 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                            <button type="submit" class="form-control-submit-button">SEND MESSAGE</button>
                         </div>
                         <div class="form-message">
                             <div id="cmsgSubmit" class="h3 text-center hidden"></div>
